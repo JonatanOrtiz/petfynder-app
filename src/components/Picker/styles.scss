@@ -1,0 +1,35 @@
+.statePickerView {
+  margin: 5px;
+  border-width: 1px;
+  border-radius: 5px;
+  padding-left: 15;
+  border-color: #ededed;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fcfcfc;
+}
+
+.statePicker{
+  margin-left: 10;
+  height: 40;
+  width: 100;
+}
+
+.cityPickerView {
+  margin: 5px;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #ededed;
+  background-color: #fcfcfc;
+}
+
+.cityInputText {
+  height: 45;
+  color: black;
+  margin-left: 10px;
+}
+
+.cityPicker {
+  height: 40;
+  margin-left: 5;
+}

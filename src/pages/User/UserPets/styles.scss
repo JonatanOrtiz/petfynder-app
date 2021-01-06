@@ -1,0 +1,45 @@
+.container {
+  margin: 3%;
+}
+
+.header {
+  height: 65;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: white;
+}
+
+.headerTitle {
+  font-size: 19;
+  padding-bottom: 5px;
+  font-weight: bold;
+  color: #515151;
+}
+
+.touchable{
+  margin: 0px 5px 5px 0;
+  border-width: 1px;
+  border-radius: 25px;
+  border-color: #b9b9b9;
+}
+
+%photoText {
+  padding: 3px;
+  padding-right: 10px;
+  border-bottom-left-radius: 10px;
+  font-weight: bold;
+  position: absolute;
+  align-self: flex-end;
+  background-color: rgba(255, 255, 255, 0.578);
+  margin-right: 10px;
+}
+
+.photoTextFemale {
+  @extend %photoText;
+  color: rgb(140, 0, 0)
+}
+
+.photoTextMale {
+  @extend %photoText;
+  color: rgb(4, 0, 110)
+}

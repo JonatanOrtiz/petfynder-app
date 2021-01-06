@@ -1,0 +1,95 @@
+.container {
+  flex: 1;
+  background-color: #ffffff;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px  35px 35px 35px;
+};
+
+.logo {
+  height: 180;
+  width: 180;
+  margin-bottom: -20;
+  margin-top: 40;
+}
+
+.logoTitle {
+  font-size: 28;
+  color: rgb(93, 93, 93);
+  font-family: Pacifico;
+  margin-bottom: 20px;
+}
+
+.emailInputView {
+  width: 100%;
+  margin: 5px;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #dddddd;
+  flex-direction: row;
+  background-color: #fcfcfc;
+}
+
+.passwordInputView {
+  width: 82%;
+  margin: 5px;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #dddddd;
+  flex-direction: row;
+  background-color: #fcfcfc;
+}
+
+.textInput {
+  flex: 1;
+  color: black;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #fcfcfc;
+}
+
+.textInputAndButtonView {
+  flex-direction: row;
+}
+
+.showBlockPasswordButton {
+  height: 50;
+  width: 18%;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.showBlockPasswordIcon {
+  height: 30;
+  width: 30;
+}
+
+.saveButtonView {
+  width: 100%;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.saveButtonElevationView {
+  height: 50;
+  align-self: stretch;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.saveButton {
+  height: 50;
+  align-self: stretch;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(211, 75, 62);
+}
+
+.saveButtonText {
+  color: #ffffff;
+  font-size: 18;
+  font-weight: bold;
+}

@@ -1,0 +1,62 @@
+.currentLocationView {
+  flex: 1;
+  // margin-top: -10;
+  margin-left: 20;
+  margin-bottom: 15;
+  flex-direction: row;
+  align-items: center;
+}
+
+.currentLocationText {
+  font-weight: bold;
+  color: #515151;
+  margin-left: 5;
+}
+
+.mapContainer {
+  flex: 1;
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mapView {
+  height: 280;
+  width: 90%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.map {
+  height: 280;
+  width: 100%;
+}
+
+%zoomButton {
+  height: 45;
+  width: 45;
+  align-self: flex-end;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-color: #cccccc;
+  background-color: white;
+}
+
+.zoomInButton {
+  @extend %zoomButton;
+  border-top-right-radius: 20px;
+}
+
+.zoomOutButton {
+  @extend %zoomButton;
+  margin-top: 45;
+  border-top-width: 0px;
+  border-bottom-left-radius: 6px;
+}
+
+.icons {
+  height: 20;
+  width: 20;
+}

@@ -1,0 +1,213 @@
+.container {
+  flex: 1;
+}
+
+.photoView {
+  height: 100%;
+  width: 100%
+}
+
+.backgroundImage {
+  height: 100%;
+}
+
+.circleDiv {
+  position: absolute;
+  bottom: 15;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10;
+}
+
+.whiteCircle {
+  border-radius: 5px;
+  margin: 5px;
+  background-color: #ffffff
+}
+
+.nameText{ 
+  margin-left: 10;
+  font-weight: bold;
+  color: #424242;
+}
+
+.hideName {
+  display: none;
+}
+
+.locationContent {
+  flex: 1;
+  margin-top: 10;
+  margin-left: 8;
+  flex-direction: row;
+}
+
+.locationTextView {
+  flex: 1;
+  justify-content: center;
+}
+
+.cityStateText {
+  color: #656565;
+}
+
+.addressText {
+  color: #656565;
+}
+
+.phoneGenderBreedContent {
+  margin-top: 10;
+  margin-left: 8;
+  align-items: center;
+  flex-direction: row;
+}
+
+.phoneText {
+  color: #656565;
+}
+
+.genderBreedText {
+  color: #656565;
+}
+
+.lineDivision {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  border-color: #f5f5f5;
+  border-top-width: 2px;
+}
+
+.aboutContainer {
+  margin: 20px;
+}
+
+.breedDateAboutText {
+  color: #656565;
+  margin-bottom: 15;
+}
+
+.lastLocationText {
+  margin: 10px;
+  color: #969696;
+}
+
+.mapContainer {
+  flex: 1;
+  margin-bottom: 20;
+  border-width: 1px;
+  border-radius: 20px;
+  border-color: #d8d8d8;
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mapView {
+  height: 200;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.map {
+  height: 280;
+  width: 100%;
+}
+
+.editDeleteContainer {
+  margin: 15px;
+  margin-bottom: 15;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.editDeleteView {
+  margin: 10px;
+  border-radius: 12px;
+  background-color: rgb(251, 251, 251);
+}
+
+.editDeleteTouchable {
+  height: 50;
+  width: 110;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.editDeleteIcon {
+  margin-right: 7;
+  height: 25;
+  width: 25;
+}
+
+.editText {
+  font-size: 15;
+  color: rgb(53, 53, 53);
+  font-weight: bold;
+}
+
+.deleteText {
+  font-size: 15;
+  color: rgb(212, 58, 58);
+  font-weight: bold;
+}
+
+.favoriteView {
+  margin-top: 10;
+  position: absolute;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.favoriteButton {
+  height: 50;
+  width: 50;
+  margin-top: 25;
+  margin-left: 25;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.486);
+}
+
+.favoriteIcon {
+  height: 25;
+  width: 25;
+  margin-top: 2;
+}
+
+.alreadyRescuedView {
+  width: 95%;
+  margin: 10px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  flex-direction: row;
+  background-color: rgb(251, 251, 251);
+}
+
+.alreadyRescuedTouchable {
+  height: 50;
+  width: 100%;
+  margin-left: 25;
+  border-radius: 25px;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.486);
+}
+
+.alreadyRescuedIcon {
+  height: 25;
+  width: 25;
+  margin-top: 2;
+}
+
+.alreadyRescuedText {
+  font-size: 15;
+  margin-left: 15;
+  font-weight: bold;
+  color: #00AF80;
+}

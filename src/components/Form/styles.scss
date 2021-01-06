@@ -1,0 +1,58 @@
+.formContainer{
+  margin-bottom: 15px;
+}
+
+.textInputView {
+  margin: 5px;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #ededed;
+  flex-direction: row;
+  background-color: #fcfcfc;
+}
+
+.textInput {
+  flex: 1;
+  color: black;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #fcfcfc;
+}
+
+.hideName {
+  display: none;
+}
+
+.statePickerView {
+  margin: 5px;
+  border-width: 1px;
+  border-radius: 5px;
+  padding-left: 15;
+  border-color: #ededed;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fcfcfc;
+}
+
+.statePicker{
+  margin-left: 10;
+  height: 50;
+  width: 100;
+}
+
+.cityPickerView {
+  margin: 5px;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #ededed;
+  background-color: #fcfcfc;
+}
+
+.cityInputText {
+  color: black;
+  margin-left: 10px;
+}
+
+.cityPicker {
+  margin-left: 5;
+}

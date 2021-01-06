@@ -1,0 +1,35 @@
+.photosContainer {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.photosView {
+  width: 33%;
+  margin-bottom: 5px;
+  flex-direction: row;
+}
+
+.photoViewButton {
+  width: 85%;
+  margin-left: 5px;
+  border-radius: 20px;
+  border-width: 0.2px;
+  border-color: #515151;
+  background-color: #ffffff;
+}
+
+.photoImg {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.addDeleteImg {
+  height: 25;
+  width: 25;
+}
+
+.addDeleteButton {
+  margin-left: -15;
+  align-self: flex-end;
+}
